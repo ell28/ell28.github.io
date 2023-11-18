@@ -1,0 +1,21 @@
+.content{
+    width: 100%;
+    margin-top: 50px;
+}
+.content h1{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+    
+}
+
+#allVid{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;   
+}
+
+#allVid div{
+    display: inline;
+    margin-bottom: 100px;
+}

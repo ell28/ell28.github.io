@@ -1,0 +1,33 @@
+#player img{
+    max-width: 270px;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#player{
+    width: 70%;
+    margin: auto;
+}
+#coachStaff{
+    width: 70%;
+    margin: auto;
+}
+#coachStaff img{
+    max-width: 280px;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+}
+.content{
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+.content h1{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+}
