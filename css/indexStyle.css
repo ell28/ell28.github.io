@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 nav ul li{
     list-style: none;
@@ -9,19 +10,21 @@ nav ul li{
     
 }
 body{
-    background-image: url("image.png");
+    background-image: url("imageGrey.png");
     font-family: Helvetica;
+    
 }
-body::before {
+/* body::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.5) for opacity */
-    z-index: -1; /* Place the overlay behind the content */
-}
+    background: rgba(0, 0, 0, 0.9); 
+    z-index: -1; 
+} */
+
 nav a{
     text-decoration: none;
     color: white;

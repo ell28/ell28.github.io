@@ -6,28 +6,32 @@
     margin-top: 10px;
 }
 #player{
-    width: 70%;
+    width: 100%;
     margin: auto;
+    margin-left: 80px;
 }
 #coachStaff{
-    width: 70%;
+    width: 100%;
     margin: auto;
+    margin-left: 70px;
 }
 #coachStaff img{
     max-width: 280px;
     display: inline;
     float: left;
     margin-right: 20px;
+    margin-top:10px;
 }
 .content{
     margin: auto;
     width: 100%;
     margin-top: 20px;
     font-family: sans-serif;
-    
+    display:grid;
 }
 .content h1{
     text-align: center;
     font-size: 25pt;
     font-weight: bolder;
+    color:white;
 }
