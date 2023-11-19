@@ -12,6 +12,16 @@ body{
     background-image: url("image.png");
     font-family: Helvetica;
 }
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9); /* Adjust the last value (0.5) for opacity */
+    z-index: -1; /* Place the overlay behind the content */
+}
 nav a{
     text-decoration: none;
     color: white;
