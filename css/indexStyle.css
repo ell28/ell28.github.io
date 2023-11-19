@@ -8,20 +8,9 @@ nav ul li{
     padding:20px;
     
 }
-body {
+body{
+    background-image: url("image.png");
     font-family: Helvetica;
-    position: relative;
-}
-body::after {
-    content: "";
-    background: url("image.png");
-    opacity: 0.5; /* Set your desired opacity here */
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
 }
 nav a{
     text-decoration: none;
